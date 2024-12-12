@@ -1,2 +1,0 @@
-# almir
-Fantasy world exploration
