@@ -29,7 +29,7 @@
 
 ## Dragonborn
 **Tags**: Glide, Fracture Magical  
-**Short Description**: *[Description needed]*  
+**Description**: Humanoids with draconic features including scales, reptilian eyes, and strong builds. Their scales vary in color based on their ancestral dragon type, matching their innate breath abilities.  
 ### Abilities
 - **Active**: (Element) Breath Attack
 - **Passive**:
@@ -38,7 +38,7 @@
 
 ## Angel
 **Tags**: Flight, Spiritual, Fracture Magical  
-**Short Description**: *[Description needed]*  
+**Description**: Winged humanoids with an ethereal appearance. Their skin emits a subtle glow, and their wings appear to be made of light rather than physical feathers. Markings on their skin pulse faintly with celestial energy.  
 ### Abilities
 - **Active**: Healing Hands
 - **Passive**:
@@ -47,7 +47,7 @@
 
 ## Kitsune
 **Tags**: Spiritual, Fracture Magical  
-**Short Description**: *[Description needed]*  
+**Description**: Shapeshifters with fox-like features in their human form. They maintain subtle traits such as pointed ears and slitted pupils, with their hair typically showing red or gold hues.  
 ### Abilities
 - **Active**:
   - Fox Form
@@ -65,25 +65,17 @@
 
 ## Werewolf
 **Tags**: Fracture Magical  
-**Short Description**: *[Description needed]*  
+**Description**: Strong-built humanoids with wolf-like features. Even in human form, they possess sharp canines and heightened senses, with eyes that reflect light like those of wolves.  
 ### Abilities
 - **Active**:
   - Wolf Form
   - Rampage
 - **Passive**: Overwhelming Strength
 
-## Slime
-**Tags**: Homogenous, Fracture Magical  
-**Short Description**: *[Description needed]*  
-### Abilities
-- **Passive**:
-  - Self Regeneration
-  - Contortionist
-  - Dissolvent
 
 ## Harpy
 **Tags**: Flight, Fracture Magical  
-**Short Description**: *[Description needed]*  
+**Description**: Avian humanoids with wings instead of arms and taloned feet. Their bodies are covered in practical feathers of natural colors, suited for flight and survival.  
 ### Abilities
 - **Active**: Shrill Shriek
 - **Passive**:
@@ -92,7 +84,7 @@
 
 ## Giant
 **Tags**: Big, Fracture Magical  
-**Short Description**: *[Description needed]*  
+**Description**: Humanoids standing roughly twelve feet tall. Their bodies are proportioned like humans but on a larger scale, with skin often resembling stone or weathered metal.  
 ### Abilities
 - **Active**: Bastion
 - **Passive**:
@@ -115,18 +107,19 @@
 **Short Description**: An unknown race appearing as a mass of tentacles shaped into a humanoid form.  
 ### Abilities
 - **Active**: Sensory Manipulation
+  - Replication Shell
 - **Passive**:
   - Contortionist
-  - Camouflage
 
-## Elemental
-**Tags**: Homogeneous, Spiritual, Glide, Eldritch Magical  
-**Short Description**: Unknown beings constructed of strange elements, appearing as roughly humanoid forms with unique, designed masks instead of faces.  
+## Vile Slime
+**Tags**: Homogenous, Fracture Magical  
+**Description**: Beings composed of semi-solid matter capable of maintaining humanoid form. Their bodies can shift between liquid and solid states, with a visible core that dims or brightens with activity.  
 ### Abilities
-- **Active**: (Element) Manipulation
+- **Active**:
+  - Splitting
+  - Form Hardening
 - **Passive**:
-  - (Element) Body
-  - (Element) Healing
+  - Contortionist
 
 ## Arachne
 **Tags**: Big, Eldritch Magical  
@@ -154,6 +147,15 @@
 - **Passive**:
   - Fungal Armour
   - Corpse Repair
+
+## Rustborn
+**Tags**: Eldritch Magical, small 
+**Short Description**: An unkown race of Smaller beings, whose flesh seems partially metallic constantly oxidizing and in patches across their body. They exhibit a need to constantly discharge the energy stored within the rust to keep their joints from freezing up.  
+### Abilities
+- **Active**: Electricity Generation
+- **Passive**:
+  - Corrosive Touch
+  - Iron Body
 
 # Starting Magic Types
 ## Material Magic
