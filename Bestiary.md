@@ -1,3 +1,4 @@
+═══════════════════════════
 DESERT WASTELAND DENIZENS
 ═══════════════════════════
 
@@ -61,7 +62,7 @@ HARVESTED MATERIALS
 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-BRASS SCARAB SWARM
+BRASS SCARAB
 -----------------
 Population:    50-800 per colony
 Threat Level: ORANGE [MEDIUM]
@@ -308,8 +309,8 @@ leading some nomads to use them as weather indicators.
 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-Afflicted Humans
----------------
+AFFLICTED HUMAN
+-----------------
 Population:    10-100 per settlement
 Threat Level: YELLOW [LOW]
 Size:         Human-sized, often emaciated
@@ -425,8 +426,8 @@ it often simply relocates through the veil when threatened.
 
 HARVESTED MATERIALS
 ══════════════════
-• Bloom Fragments (Coveted by eldritch scholars) [§§§§§][***]
-• Reality Shards (Used in fracture research) [§§§§][***]
+• Violent Core (Coveted by eldritch scholars) [§§§§§][**]
+• Floral Fragments (Used in fracture research) [§§§§]
 
 NOTES
 ═════

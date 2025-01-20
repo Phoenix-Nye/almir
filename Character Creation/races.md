@@ -113,7 +113,7 @@
 
 ## Vile Slime
 **Tags**: Homogenous, Fracture Magical  
-**Description**: Beings composed of semi-solid matter capable of maintaining humanoid form. Their bodies can shift between liquid and solid states, with a visible core that dims or brightens with activity.  
+**Description**: Beings composed of semi-solid matter capable of maintaining humanoid form. Their bodies can shift between liquid and solid states, able to create armor or weapons from their own body.  
 ### Abilities
 - **Active**:
   - Splitting
@@ -156,52 +156,3 @@
 - **Passive**:
   - Corrosive Touch
   - Iron Body
-
-# Starting Magic Types
-## Material Magic
-- Fire
-- Water
-- Earth
-- Air
-- Bio
-
-## Eldritch Magic
-- Light
-- Aberration
-- Spatial
-- Gravity
-- Sound
-
-# Archetypes
-
-## Precision Specialist
-**Focus**: Fine control over small details of abilities, allowing for highly accurate magic use.  
-**Effect**: Can manipulate smaller areas or objects with greater precision. Examples include finely sculpting earth shapes, guiding fire to specific spots, or moving water through narrow spaces.
-
-## Amplifier
-**Focus**: Amplifying raw power or effect of basic abilities.  
-**Effect**: Increases potency or scale of magic at the cost of precision and control.
-
-## Sustainer
-**Focus**: Prolonged control and duration of Potential.  
-**Effect**: Maintains spells for multiple uses, allowing for extended duration spells that can stall battles while preparing additional spells.
-
-## Veil Weaver
-**Focus**: Concealment of Potential until activation.  
-**Effect**: Masters magical discretion, allowing concealed magic until triggered.
-
-## Shieldbearer
-**Focus**: Defensive applications of abilities.  
-**Effect**: Specializes in barriers and protective effects, excelling at protecting self and allies.
-
-## Disruptor
-**Focus**: Environmental magic coating.  
-**Effect**: Creates distractions and chaos by covering large areas with Potential, enabling drastic environmental changes.
-
-## Conduit
-**Focus**: Channeling energy through objects or self.  
-**Effect**: Enhances tools, weapons, or self with magical effects, excelling at physical attacks and buffs.
-
-## Quickcaster
-**Focus**: Rapid ability usage and Potential activation.  
-**Effect**: Specializes in quick-casting smaller abilities for rapid combat reactions, trading power for speed.
