@@ -200,7 +200,7 @@ entropy growth makes them more volatile but shorter-lived than human afflicted.
 
 HARVESTED MATERIALS
 ══════════════════
-• Aberration Crystals (Used in containment research) [§§][**]
+• Aberrant Crystals (Used in containment research) [§§][**]
 • Preserved Tissue (Valuable to scholars) [§][*]
 
 NOTES
@@ -246,7 +246,7 @@ it often simply relocates through the veil when threatened.
 
 HARVESTED MATERIALS
 ══════════════════
-• Violent Core (Coveted by eldritch scholars) [§§§§§][**]
+• Entropic Core (Coveted by eldritch scholars) [§§§§§][**]
 • Floral Fragments (Used in fracture research) [§§§§]
 
 NOTES
@@ -256,4 +256,50 @@ whether it was caused by the fracturing remains debated. Its very existence seem
 to be an impossibility - a living creature that exists in all stages of its life 
 cycle simultaneously. Some theorize it's not truly alive at all, but rather a 
 manifestation of nature's attempt to restore balance through controlled decay.
+
+MALIGNANT SEEDLING
+-----------------
+Population:    Rare (1-3 per Bloom)
+Threat Level: Orange [Medium]
+Size:         6 inches diameter (unhosteed) / Host-sized when merged
+
+DESCRIPTION
+══════════
+A miniature version of the Malignant Bloom that begins as a crystalline flower bud. 
+Once it finds a suitable host, it merges with their spine, spreading violet-veined 
+roots throughout their nervous system. The host's back splits open to reveal the 
+seedling's iridescent petals, which pulse with entropy energy. Unlike the 
+mindless Afflicted, these hosts retain their intelligence while slowly being 
+transformed into a new Bloom.
+
+ABILITIES
+═════════
+• Host Merger: Bonds with human hosts, granting them enhanced abilities
+• Entropy Channel: Allows host to harness entropy magic
+• Accelerated Healing: Rapidly repairs host's injuries through entropy manipulation
+• Energy Absorption: Draws in surrounding fracture energy to fuel growth
+• Reality Anchor: Host exists in multiple states simultaneously
+
+COMBAT NOTES
+════════════
+Extremely dangerous when hosted. The symbiotic relationship grants the host 
+incredible regenerative abilities and control over entropy magic, while the 
+seedling is protected within the host's body. The host maintains full 
+intelligence and can coordinate Afflicted. As the seedling grows, the host gains 
+more power but becomes increasingly unstable.
+
+HARVESTED MATERIALS
+══════════════════
+• Seedling Core (Priceless research specimen) [§§§§§][***]
+• Neural Tendrils (Used in entropy studies) [§§§][*]
+
+NOTES
+═════
+The most insidious form of the Malignant Bloom's reproduction. The host 
+experiences intense euphoria from the merger, becoming addicted to the seedling's 
+presence. As the seedling absorbs more energy, the host's body gradually 
+transforms, eventually serving as the foundation for a new Bloom. The process 
+can take weeks to months, depending on available fracture energy.
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 

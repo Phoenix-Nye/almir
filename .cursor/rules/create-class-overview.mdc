@@ -1,0 +1,75 @@
+---
+description: Command – Create a new D&D class overview from class name and description
+globs: []
+alwaysApply: false
+---
+
+# Create Class Overview (Command)
+
+When the user invokes this command, they provide:
+1. **Class name** – the name of the new D&D 5E class (e.g. Shadow Dancer, Runecrafter).
+2. **Class description** – a short description of the class (role, fantasy, abilities, resource model, or playstyle).
+
+Your job is to **create a new Class Overview document** for that class and save it.
+
+## Invocation
+
+The user may say things like:
+- "Create a new class overview: name **X**, description **Y**"
+- "Use the create class overview command: **ClassName**, **description**"
+- "Create class overview – name: X, description: Y"
+
+Treat the first value as the **class name** and the second (longer) value as the **class description**.
+
+## Steps
+
+1. **Apply the project’s class structure**  
+   Follow the structure and conventions in the rule **custom-dnd-classes** (`.cursor/rules/custom-dnd-classes.mdc`). Use the required sections and the vacant template defined there.
+
+2. **Derive content from the description**  
+   From the user’s **class description**, infer and write:
+   - **Role:** (e.g. striker, controller, support) – one short line.
+   - **Primary Ability Score(s):** one or two abilities that fit the fantasy (e.g. Dexterity, Charisma).
+   - **Power Fantasy:** one sentence that captures the class fantasy and how it plays.
+   - **Design Notes:** short note on resource model (short/long rest, resource name if any) and design focus (control, mobility, etc.).
+
+   If the description is minimal, make reasonable 5E-appropriate choices that fit the name and any hints in the description.
+
+3. **Aim for DPR benchmarks**  
+   Design damage-contributing features so the class sits in the project’s tier DPR ranges (see **custom-dnd-classes**):
+   - **Tier 1 (1–4):** ~10–12 DPR typical, 20+ optimized
+   - **Tier 2 (5–10):** ~25–35 DPR typical, 40–50+ optimized
+   - **Tier 3 (11–16):** ~40–50+ DPR typical, 80+ optimized
+   - **Tier 4 (17–20):** ~90+ DPR typical, 150–170+ optimized  
+   Add **Balance:** notes on high-impact damage features (e.g. Level 5 spike, capstone) where it helps.
+
+4. **Fill the full document**  
+   Generate the **entire** Class Overview document, including:
+   - Title: `# [Class Name]`
+   - Class Overview (Role, Primary Ability Score(s), Power Fantasy, Design Notes)
+   - Class Table (levels 1–20, Proficiency Bonus, Features, optional Resource column, Feature Choices) – use `—` for empty cells; ASI at 4/8/12/16/19; subclass at 3, with features at 3rd, 6th, 11th, 17th
+   - Core Class Features (Hit Points, Proficiencies)
+   - Level 1 core feature(s) with a `> **Design Intent:**` line
+   - Modular/Resource system (if it fits the description) with `> **Balance Target:**`
+   - Subclass (name and level 3, feature levels listed)
+   - Ability Score Improvement (levels 4, 8, 12, 16, 19)
+   - Level 5 power spike (e.g. Extra Attack + one signature feature)
+   - **Level-by-level features (5–20):** a named feature and short description for each level that grants one (not just ASI/subclass); do not use a single "Scaling features (placeholders)" block.
+   - **Techniques / maneuvers / options:** if the class has named choices (e.g. at level 2), list each with **name** and **effect**; do not leave only categories.
+   - Capstone (Level 20) with **Balance:** or Design Intent
+
+   Use placeholders only where necessary (e.g. subclass features); base-class levels 5–20 and any technique list must be fleshed out with real feature names and descriptions. Keep tone and detail level consistent with **Class Overview** and **Monk Class Example** in `Almir DnD5E/`.
+
+5. **Save the file**  
+   Write the new document to:
+   - **Path:** `Almir DnD5E/[Class Name] Class Overview`  
+   Use the exact class name as given by the user (e.g. `Shadow Dancer Class Overview`). Omit a file extension to match existing class overview files in that folder.
+
+6. **Confirm**  
+   After saving, tell the user the file path and that they can edit it further or ask you to expand any section.
+
+## Summary
+
+- **Input:** Class name + class description (from the user’s message).  
+- **Output:** One new file: `Almir DnD5E/[Class Name] Class Overview`, containing a full class document that follows `custom-dnd-classes` and is informed by the description.  
+- **Reference:** Always use the structure and vacant template from **custom-dnd-classes.mdc** and the tone from existing class docs in `Almir DnD5E/`.

@@ -46,7 +46,7 @@ many of the region's smaller creatures, creating oases beneath the scorched surf
 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-GLASS GRAZER
+ARMORARIUM
 -----------
 Population:    15-30 per herd
 Threat Level: BLUE [PASSIVE]

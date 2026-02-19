@@ -1,0 +1,150 @@
+# Official D&D 5E Class Reference
+
+Short reference for official classes in this project’s structure: feature progression, resource model, and key levels. Use when designing custom classes to stay 5E-consistent and avoid clashing with core norms. Format follows **custom-dnd-classes** (`.cursor/rules/custom-dnd-classes.mdc`).
+
+---
+
+## Druid
+
+### Class Overview
+**Role:** Full caster (controller/support), primal magic and Wild Shape  
+**Primary Ability Score(s):** Wisdom  
+**Power Fantasy:** Drawing on the divine essence of nature to cast spells and assume beast forms; versatile prepared caster with strong out-of-combat and control options.  
+**Design Notes:** Long-rest spell slots (full caster progression); Wild Shape uses recharge on short or long rest. Subclass at 2nd level; power curve is spell level, not Extra Attack.
+
+---
+
+### Class Table
+
+| Level | Prof | Features | **Spell slots per level** |  |  |  |  |  |  |  |  |
+|-------|------|----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|  |  |  | **1st** | **2nd** | **3rd** | **4th** | **5th** | **6th** | **7th** | **8th** | **9th** |
+|-------|------|----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 1st   | +2   | Druidic, Spellcasting | 2 | — | — | — | — | — | — | — | — |
+| 2nd   | +2   | Wild Shape, Druid Circle, Wild Companion (Optional) | 2 | 3 | — | — | — | — | — | — | — |
+| 3rd   | +2   | — | 2 | 4 | 2 | — | — | — | — | — | — |
+| 4th   | +2   | Wild Shape improvement, Ability Score Improvement, Cantrip Versatility (Optional) | 3 | 4 | 3 | — | — | — | — | — | — |
+| 5th   | +3   | — | 3 | 4 | 3 | 2 | — | — | — | — | — |
+| 6th   | +3   | Druid Circle feature | 3 | 4 | 3 | 3 | — | — | — | — | — |
+| 7th   | +3   | — | 3 | 4 | 3 | 3 | 1 | — | — | — | — |
+| 8th   | +3   | Wild Shape improvement, Ability Score Improvement, Cantrip Versatility (Optional) | 3 | 4 | 3 | 3 | 2 | — | — | — | — |
+| 9th   | +4   | — | 3 | 4 | 3 | 3 | 3 | 1 | — | — | — |
+| 10th  | +4   | Druid Circle feature | 4 | 4 | 3 | 3 | 3 | 2 | — | — | — |
+| 11th  | +4   | — | 4 | 4 | 3 | 3 | 3 | 2 | 1 | — | — |
+| 12th  | +4   | Ability Score Improvement, Cantrip Versatility (Optional) | 4 | 4 | 3 | 3 | 3 | 2 | 1 | — | — |
+| 13th  | +5   | — | 4 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — |
+| 14th  | +5   | Druid Circle feature | 4 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — |
+| 15th  | +5   | — | 4 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 16th  | +5   | Ability Score Improvement, Cantrip Versatility (Optional) | 4 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 17th  | +6   | — | 4 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 18th  | +6   | Timeless Body, Beast Spells | 4 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 |
+| 19th  | +6   | Ability Score Improvement, Cantrip Versatility (Optional) | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 |
+| 20th  | +6   | Archdruid | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 |
+
+*Spell slot columns = number of slots per spell level. Empty cells = —.*
+
+---
+
+### Core Class Features
+
+#### Hit Points
+- **Hit Dice:** 1d8 per druid level  
+- **Hit Points at 1st Level:** 8 + your Constitution modifier  
+- **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per druid level after 1st  
+
+#### Proficiencies
+- **Armor:** Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)  
+- **Weapons:** Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears  
+- **Tools:** Herbalism kit  
+- **Saving Throws:** Intelligence, Wisdom  
+- **Skills:** Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival  
+
+**Starting equipment (typical):** (a) wooden shield or (b) any simple weapon; (a) scimitar or (b) any simple melee weapon; leather armor, explorer’s pack, druidic focus.
+
+---
+
+### Core Features (Level 1)
+
+#### Druidic
+You know Druidic, the secret language of druids. You can speak it and use it to leave hidden messages. You and others who know this language automatically spot such a message; others notice its presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.
+
+#### Spellcasting
+Drawing on the divine essence of nature, you cast spells to shape that essence to your will.
+
+> **Design Intent:** Establish the druid as a full prepared caster with Wisdom-based spellcasting, ritual casting, and a druidic focus; core loop is spell preparation and slot expenditure.
+
+- **Cantrips:** At 1st level you know two cantrips from the druid spell list; you learn more at higher levels (see Cantrips Known on the Druid table in the PHB).  
+- **Preparing and casting spells:** The class table shows how many spell slots you have. You prepare a number of druid spells equal to **Wisdom modifier + druid level** (minimum one), chosen from the druid spell list, of levels for which you have slots. You expend a slot of the spell’s level or higher to cast a prepared spell. You regain all expended spell slots when you finish a **long rest**. You can change your prepared list when you finish a long rest (1 minute per spell level per spell on the list).  
+- **Spellcasting ability:** Wisdom.  
+  - **Spell save DC** = 8 + proficiency bonus + Wisdom modifier  
+  - **Spell attack modifier** = proficiency bonus + Wisdom modifier  
+- **Ritual casting:** You can cast a druid spell as a ritual if it has the ritual tag and you have it prepared.  
+- **Spellcasting focus:** You can use a druidic focus for your druid spells.
+
+> **Balance Target:** Full caster; DPR and control scale with spell level (3rd at 5, 6th at 11, 9th at 17), not with Extra Attack.
+
+---
+
+### Wild Shape (Level 2)
+You can use your action to magically assume the shape of a beast you have seen before. You can use this feature **twice**. You regain expended uses when you finish a **short or long rest**.
+
+Your druid level sets which beasts you can transform into (see Beast Shapes below). Duration: a number of hours equal to half your druid level (rounded down), or you can revert early as a bonus action. You revert automatically if you fall unconscious, drop to 0 hit points, or die.
+
+**While transformed:** Your statistics are replaced by the beast’s, but you keep your alignment, personality, and Intelligence, Wisdom, and Charisma. You keep your skill and saving throw proficiencies and gain the beast’s; use the higher bonus when both have the same proficiency. You assume the beast’s hit points and Hit Dice; when you revert, you return to the hit points you had before (excess damage in beast form carries over to your normal form). You can’t cast spells; speech and hand-based actions are limited by the form. You keep concentration on spells already cast and can take actions that are part of a spell (e.g. *call lightning*). You keep class/race features and can use them if the form is physically capable. Equipment either falls, merges into the form, or is worn (DM decides practicality); merged equipment has no effect until you leave the form.
+
+**Beast Shapes**
+
+| Level | Max. CR | Limitations           | Example     |
+|-------|---------|------------------------|-------------|
+| 2nd   | 1/4     | No flying or swimming  | Wolf        |
+| 4th   | 1/2     | No flying speed        | Crocodile   |
+| 8th   | 1       | —                      | Giant eagle |
+
+#### Wild Companion (Optional)
+At 2nd level, you can expend a use of Wild Shape to cast *find familiar* (no material components) as an action. The familiar is fey and disappears after a number of hours equal to half your druid level.
+
+---
+
+### Subclass: Druid Circle (Level 2)
+You choose a circle of druids at 2nd level. Your choice grants features at **2nd, 6th, 10th, and 14th** level.
+
+**Circles (sources):** Dreams (XGE), Land (PHB), Moon (PHB), Shepherd (XGE), Spores (GGR), Stars (TCE), Wildfire (TCE); Primeval (UA). Other UA/archived options exist.
+
+---
+
+### Ability Score Improvement (Levels 4, 8, 12, 16, 19)
++2 to one ability score or +1 to two (can’t exceed 20).
+
+#### Cantrip Versatility (Optional)
+When you gain an ASI from this class, you can replace one druid cantrip you learned from Spellcasting with another from the druid spell list.
+
+---
+
+### Level 5 Power Spike
+No Extra Attack. Power spike is **3rd-level spell slots** (and access to 3rd-level spells), aligning full-caster damage and control with tier expectations.
+
+---
+
+### Level-by-Level Features (5–20)
+
+#### Wild Shape Improvement (Level 4)
+Beast options improve: max CR 1/2, no flying speed (see Beast Shapes table). ASI and optional Cantrip Versatility also at 4th.
+
+#### Wild Shape Improvement (Level 8)
+Beast options improve: max CR 1, no limitations (see Beast Shapes table). ASI and optional Cantrip Versatility also at 8th.
+
+#### Timeless Body (Level 18)
+The primal magic you wield slows aging: for every 10 years that pass, your body ages only 1 year.
+
+#### Beast Spells (Level 18)
+You can cast many of your druid spells in any shape from Wild Shape. You can perform somatic and verbal components in beast form but cannot provide material components.
+
+---
+
+### Capstone: Archdruid (Level 20)
+You can use **Wild Shape** an unlimited number of times.
+
+You can ignore the verbal and somatic components of your druid spells, and any material component that has no cost and isn’t consumed. This applies in your normal form and in beast form from Wild Shape.
+
+> **Design Intent:** Make Wild Shape always available and streamline casting in and out of form; no infinite spell loops, no dead-turn scenarios.  
+> **Balance:** Capstone is utility and flexibility, not raw DPR spike; full caster curve remains spell-based.

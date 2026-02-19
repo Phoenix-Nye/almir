@@ -1,0 +1,134 @@
+# Potentialist
+
+## Class Overview
+**Role:**  Adaptive striker / Martial Controller
+**Primary Ability Score(s):** Charisma, Dexterity 
+**Power Fantasy:** Adaptable armament conjurers, capable of controlling the battlefield via everchanging weaponry.
+**Design Notes:** Versatile resource-driven elemental martialists, with a focus on precise control, and chaining effects
+
+---
+
+## Class Table
+| Level | Proficiency Bonus | Features | Potential Points | Feature Choices |
+|------|-------------------|----------|------------------|-----------------|
+| 1st  | +2 | Potential Armament, Minor Shape Manipulation | — | Element (Fire/Water/Earth/Air) |
+| 2nd  | +2 | Potential Points, Potential Techniques | 2 (max = level) | 2 Techniques |
+| 3rd  | +2 | Subclass (Potential Path) | — | — |
+| 4th  | +2 | Ability Score Improvement | — | — |
+| 5th  | +3 | Extra Attack, Signature Form (Aspect) | — | Weapon type + Aspect |
+| 6th  | +3 | Second Element, Subclass Feature | — | Second Element (Frequency/Spatial/Bio/Light) |
+| 7th  | +3 | — | — | — |
+| 8th  | +3 | Ability Score Improvement | — | — |
+| 9th  | +4 | Improved Potential Control | — | — |
+| 10th | +4 | Potential Technique | +1 technique | — |
+| 11th | +4 | Dual Armament, Subclass Feature | — | — |
+| 12th | +4 | Ability Score Improvement | — | — |
+| 13th | +5 | Advanced Techniques | — | — |
+| 14th | +5 | Potential Technique | +1 technique | — |
+| 15th | +5 | — | — | — |
+| 16th | +5 | Ability Score Improvement | — | — |
+| 17th | +6 | Master Potentialist, Subclass Feature | — | — |
+| 18th | +6 | Potential Technique | +1 technique | — |
+| 19th | +6 | Ability Score Improvement | — | — |
+| 20th | +6 | Potential Mastery (Capstone) | — | — |
+
+---
+
+## Core Class Features
+
+### Hit Points
+- **Hit Dice:** 1d10 per Potentialist level  
+- **Hit Points at 1st Level:** 10 + your Constitution modifier  
+- **Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per Potentialist level after 1st  
+
+### Proficiencies
+- **Armor:** Light armor, medium armor  
+- **Weapons:** Simple weapons, martial weapons  
+- **Tools:** One type of artisan's tools  
+- **Saving Throws:** Charisma, Dexterity  
+- **Skills:** Choose two from Athletics, Acrobatics, Arcana, Insight, Investigation, Perception, Performance, Sleight of Hand  
+
+---
+
+## Core Feature: Potential Armament (Level 1)
+> **Design Intent:** Defines the baseline gameplay loop: conjure a bonded weapon, choose element (damage type), fight. Weapon type is a fixed choice per character.
+
+**Basic Element Selection**  
+At 1st level you choose one basic element: **Fire**, **Water**, **Earth**, or **Air**. This choice is permanent.  
+- **Fire** → Fire damage  
+- **Water** → Cold damage  
+- **Earth** → Bludgeoning damage  
+- **Air** → Force damage  
+
+**Weapon Conjuration**  
+- **Action:** Bonus action to conjure.  
+- **Bonded armament:** You have one fixed weapon type (e.g. longsword, spear) that you conjure; this choice is permanent.  
+- **Stats:** Same as the physical weapon (damage die, properties, range).  
+- **Attack/damage:** Use Charisma instead of Strength or Dexterity.  
+- **Damage type:** Determined by your chosen element (and at 6th level, by which element you choose when conjuring).  
+- **Duration:** Until you dismiss it (free action) or you fall unconscious.  
+
+**Second Element (Level 6)**  
+At 6th level you learn a second element. Choose one: **Frequency** (Force), **Spatial** (Psychic), **Bio** (Acid), **Light** (Radiant). When you conjure your weapon, you choose which of your two elements to use for that weapon’s damage type.
+
+---
+
+## Minor Shape Manipulation (Level 1)
+- **Effect:** Extend, compress, bend, or twist your conjured weapon within 5 feet.  
+- **Use:** At will, but costs a full action.  
+- **Applications:** Grab or move objects up to 5 lbs; open/close doors, latches, containers; trip or unbalance a creature (save or check, DM discretion); light or douse small flames (elementally flavored).
+
+---
+
+## Potential Points (Level 2)
+- Start with **2** Potential Points at 2nd level.  
+- **Maximum** = your Potentialist level.  
+- **Short rest:** Regain some (amount TBD).  
+- **Long rest:** Regain all.  
+- Used to activate Potential Techniques and other special abilities.
+
+## Modular Feature: Potential Techniques (Level 2+)
+- Learn **2** techniques at 2nd level; +1 at 6th, 10th, 14th, 18th.  
+- When you gain a level, you can replace one technique with another you could learn.  
+- Some techniques may be restricted by subclass.  
+- **Costs:** Typically 1–3 Potential Points per use.  
+- **Categories:** Movement/Range, Battlefield Control, Defensive, Adaptive Strategies.  
+
+> **Balance Target:** Comparable to Warlock Invocations or Battlemaster Maneuvers
+
+---
+
+## Subclass: Potential Path (Level 3)
+Choose at 3rd level. Features at **3rd, 6th, 11th, and 17th** level.  
+- Path of the Blade | Path of the Shield | Path of the Bow | Path of the Hammer | Path of Fractured Reality  
+*(Subclass features to be designed separately.)*
+
+## Ability Score Improvement (Levels 4, 8, 12, 16, 19)
++2 to one ability or +1 to two. Custom feats TBD.
+
+## Extra Attack (Level 5)
+When you take the Attack action, you can attack twice.
+
+## Signature Form (Aspect) (Level 5)
+Choose **one specific weapon type** (your bonded armament) and **one Aspect**. Both choices are permanent. Aspect is always active when wielding that weapon type.  
+- **Aspect of Cleave:** Hit with Attack → deal half weapon damage (no modifier) to one other creature within 5 ft of target (once per attack).  
+- **Aspect of Reach:** +5 ft reach with that weapon for attacks and opportunity attacks.  
+- **Aspect of Piercing:** Ignore half and three-quarters cover with that weapon.  
+- **Aspect of Hook:** On hit, pull or shove that creature 5 ft (no obviously deadly terrain).  
+- **Aspect of Precision:** Once per turn on hit with that weapon, add proficiency bonus to damage.
+
+## Scaling Features (Placeholders)
+- **Level 9:** Improved Potential Control (point efficiency, both elements).  
+- **Level 11:** Dual Armament (two weapons, different elements).  
+- **Level 13:** Advanced Techniques.  
+- **Level 17:** Master Potentialist (cost reduction, combine elements on one weapon).
+
+---
+
+## Capstone: Potential Mastery (Level 20)
+- If you have 0 Potential Points when you roll initiative, regain 4.  
+- Conjured weapons gain +2 to attack and damage rolls.  
+- Can maintain up to 3 different weapons.  
+- Techniques cost 1 less Potential Point (minimum 1).  
+
+**Balance:** Equivalent to a permanent 9th-level spell-lite effect; avoid infinite resource loops.

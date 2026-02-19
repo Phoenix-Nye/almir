@@ -1,0 +1,136 @@
+# Encounter Creation Guidelines
+
+## Location Framework
+
+### Historical Context
+- Previous events that shaped the area
+- Former purpose/use of the location
+- Recent changes or disturbances
+- Local legends or stories
+
+### Environmental Description
+- General atmosphere and mood
+- Weather conditions
+- Time of day effects
+- Ambient sounds/smells
+
+### Terrain Features
+- Natural formations
+- Architectural elements
+- Hazardous areas
+- Cover/concealment options
+
+## Points of Interest
+
+### Primary Features
+- Major landmarks
+- Critical objectives
+- Story-relevant locations
+- Unique environmental elements
+
+### Secondary Features
+- Resource locations
+- Rest areas
+- Alternative paths
+- Hidden secrets
+
+### Dynamic Elements
+- Moving hazards
+- Changing conditions
+- Time-sensitive features
+- Environmental triggers
+
+## Obstacles
+
+### Environmental Challenges
+- Natural barriers
+- Weather effects
+- Terrain hazards
+- Visibility issues
+
+### Tactical Challenges
+- Enemy positions
+- Patrol routes
+- Defensive structures
+- Traps/security measures
+
+### Puzzle Elements
+- Physical barriers requiring specific solutions
+- Environmental puzzles
+- Resource management challenges
+- Time-based challenges
+
+## Mapping Guidelines
+
+### Scale Considerations
+- Room-by-room detail for indoor areas
+- Zone-based for outdoor locations
+- Clear measurement references
+- Height/depth indicators
+
+### Map Symbols
+▲ Elevation Change
+◆ Point of Interest
+⬟ Hazard
+⬡ Resource
+✧ Secret
+≈ Water
+▅ Cover
+⬢ Enemy Position
+
+### Map Layers
+1. Base terrain/architecture
+2. Environmental features
+3. Dynamic elements
+4. Points of interest
+5. Enemy positions/patrol routes
+
+### Navigation Elements
+- Clear entry/exit points
+- Major pathways
+- Alternative routes
+- Chokepoints
+- Escape routes
+
+## Encounter Balance
+
+### Difficulty Factors
+- Number of enemies
+- Environmental hazards
+- Resource availability
+- Time constraints
+
+### Pacing Elements
+- Rest opportunities
+- Resource distribution
+- Challenge escalation
+- Alternative solutions
+
+### Reward Distribution
+- Primary objectives
+- Secondary discoveries
+- Hidden treasures
+- Environmental resources
+
+## Documentation Format
+
+### Header Information
+- Location name
+- Difficulty rating
+- Recommended level/group size
+- Time estimate
+
+### Section Organization
+1. Historical Context
+2. Current State
+3. Key Locations
+4. Active Threats
+5. Objectives
+6. Resources
+7. Special Notes
+
+### Visual Aids
+- Main map
+- Detail sketches
+- Enemy placement diagrams
+- Hazard indicators

@@ -1,0 +1,161 @@
+---
+description: Structure and conventions for creating custom DnD 5E classes in this project
+globs: "**/Class Overview*"
+alwaysApply: false
+---
+
+# Custom DnD Class Design Rules
+
+When creating or editing a custom class document, follow this structure. Use the vacant template below as the canonical shape; fill in each section without removing sections or changing the order.
+
+## DPR Benchmarks (Damage per Round)
+
+Aim for each class’s damage output to sit roughly in these ranges by tier (average DPR across official 5E classes). Use these when designing or reviewing core features, extra attack, resource spend, and capstones.
+
+| Tier  | Levels | Typical DPR | Optimized DPR |
+|-------|--------|-------------|----------------|
+| **Tier 1** | 1–4   | ~10–12 DPR  | 20+ DPR        |
+| **Tier 2** | 5–10  | ~25–35 DPR  | 40–50+ DPR     |
+| **Tier 3** | 11–16 | ~40–50+ DPR | 80+ DPR        |
+| **Tier 4** | 17–20 | ~90+ DPR    | 150–170+ DPR   |
+
+When writing features that affect damage (e.g. Level 5 spike, resource spend, capstone), add a brief **Balance:** or design note if helpful so the class stays in the intended tier band.
+
+## Class Axes (Level 5 and Power Curve)
+
+Different class types get their main power jump at level 5 in different ways. Choose the axis that fits the class and design the level 5 spike accordingly:
+
+- **Martial (weapon/unarmed focus):** Level 5 is typically **Extra Attack** plus one signature feature (e.g. Stunning Strike, Improved Divine Smite). Damage scales via more attacks and later via resource spend or scaling dice.
+- **Full caster (spell slots):** Level 5 is **3rd-level spell slots** (and access to 3rd-level spells). There is no Extra Attack; the power curve is spell level (3rd at 5, 6th at 11, 9th at 17).
+- **Half caster (e.g. Paladin, Ranger):** Level 5 is **Extra Attack**; spell slot progression is slower (2nd-level slots at 5). Damage mixes attacks and limited spell use.
+- **Support / healer / controller (no primary weapon DPR):** Level 5 is often a **throughput or utility spike** (e.g. more healing per use, double-target techniques, better condition removal), not Extra Attack. Keep damage contribution secondary and tier-appropriate.
+
+When in doubt, see **Official 5E Class Reference** (`Almir DnD5E/Official 5E Class Reference`) for how official classes handle level 5 and the rest of the curve.
+
+## Required Structure
+
+1. **Title** — `# [Class Name]` (e.g. `# Monk`, `# Potentialist`).
+2. **Class Overview** — Exactly four lines:
+   - **Role:** (e.g. Mobile skirmisher, striker / Adaptive striker, Martial Controller)
+   - **Primary Ability Score(s):** (one or two, e.g. Dexterity, Wisdom)
+   - **Power Fantasy:** One sentence describing the fantasy and playstyle.
+   - **Design Notes:** Short note on resource model and design focus (e.g. short-rest recovery, control, etc.).
+3. **Class Table** — One table, levels 1–20, with columns:
+   - Level | Proficiency Bonus | Features | [Resource column if needed, e.g. Ki / Potential Points] | Feature Choices
+   - Use `—` for empty cells. Proficiency Bonus follows 5E: +2 at 1–4, +3 at 5–8, +4 at 9–12, +5 at 13–16, +6 at 17–20.
+4. **Core Class Features** — Two subsections:
+   - **Hit Points:** Hit Dice, HP at 1st level, HP at higher levels (standard 5E phrasing).
+   - **Proficiencies:** Armor, Weapons, Tools, Saving Throws, Skills (choose N from list).
+5. **Level 1 core feature(s)** — Named feature(s) with a `> **Design Intent:**` line. Define the core loop (e.g. unarmed + mobility, conjured weapon + element).
+6. **Modular / resource system** (if the class has one) — Name the resource, how it’s gained, max, and recovery (short/long rest). Add a `> **Balance Target:**` (e.g. comparable to Battlemaster maneuvers or Warlock invocations).
+7. **Techniques, maneuvers, or options** (if the class has a list of named choices at level 2 or similar) — Include a subsection that **lists each option** with **name** and **effect** (one or two sentences or a short bullet list). Do not leave "categories" or placeholders only; at least a minimal set of example options must be fully described so the class is playable.
+8. **Subclass** — Name and level (typically 3). List feature levels (e.g. 3rd, 6th, 11th, 17th). Optionally list subclass names.
+9. **Ability Score Improvement** — Note levels (4, 8, 12, 16, 19) and +2 / +1 to two.
+10. **Level 5 power spike** — e.g. Extra Attack and one signature feature (Stunning Strike, Signature Form, etc.).
+11. **Level-by-level features (5–20)** — Every level that grants a feature (not just ASI or "Subclass Feature") must have a **named feature in the Class Table** and a matching **subsection** with at least one sentence describing what it does. Do not use a single "Scaling features (placeholders)" block; instead, define each level's feature (e.g. Level 7: [Feature Name] — description; Level 9: [Feature Name] — description; … through Level 20). Levels with no new feature can show "—" in the table and need no subsection.
+12. **Capstone (Level 20)** — One named feature. Include a `> **Design Intent:**` or **Balance:** line (reliable but not infinite; no dead-turn scenarios).
+
+## Vacant Template (copy this when starting a new class)
+
+```markdown
+# [Class Name]
+
+## Class Overview
+**Role:** 
+**Primary Ability Score(s):** 
+**Power Fantasy:** 
+**Design Notes:** 
+
+---
+
+## Class Table
+| Level | Proficiency Bonus | Features | [Resource] | Feature Choices |
+|------|-------------------|----------|------------|-----------------|
+| 1st  | +2 |  | — |  |
+| 2nd  | +2 |  |  |  |
+| 3rd  | +2 |  |  |  |
+| 4th  | +2 | Ability Score Improvement |  |  |
+| 5th  | +3 |  |  |  |
+| 6th  | +3 | Subclass Feature |  |  |
+| 7th  | +3 |  |  |  |
+| 8th  | +3 | Ability Score Improvement |  |  |
+| 9th  | +4 |  |  |  |
+| 10th | +4 |  |  |  |
+| 11th | +4 | Subclass Feature |  |  |
+| 12th | +4 | Ability Score Improvement |  |  |
+| 13th | +5 |  |  |  |
+| 14th | +5 |  |  |  |
+| 15th | +5 |  |  |  |
+| 16th | +5 | Ability Score Improvement |  |  |
+| 17th | +6 | Subclass Feature |  |  |
+| 18th | +6 |  |  |  |
+| 19th | +6 | Ability Score Improvement |  |  |
+| 20th | +6 | [Capstone] |  |  |
+
+---
+
+## Core Class Features
+
+### Hit Points
+- **Hit Dice:** 
+- **Hit Points at 1st Level:** 
+- **Hit Points at Higher Levels:** 
+
+### Proficiencies
+- **Armor:** 
+- **Weapons:** 
+- **Tools:** 
+- **Saving Throws:** 
+- **Skills:** 
+
+---
+
+## Core Feature (Level 1)
+> **Design Intent:** 
+
+---
+
+## [Modular / Resource System] (if any)
+- **Recovery:** 
+> **Balance Target:** 
+
+## [Techniques / Maneuvers / Options] (if any — list each with name and effect)
+- **[Option A]** — One or two sentences describing what it does and cost (e.g. 1 resource).
+- **[Option B]** — …
+- *(Add as many as the class grants; do not leave as categories only.)*
+
+---
+
+## Subclass: [Name] (Level 3)
+Features at **3rd, 6th, 11th, and 17th** level.
+
+## Ability Score Improvement (Levels 4, 8, 12, 16, 19)
+
+## [Level 5 power spike, e.g. Extra Attack]
+
+## Level-by-Level Features (5–20)
+Define each level that grants a feature; use a subsection per feature (e.g. ### Feature Name (Level 7)).
+- **Level 7:** [Feature name] — …
+- **Level 9:** [Feature name] — …
+- **Level 10:** (if applicable) — …
+- **Level 11:** Subclass feature (no base-class text needed).
+- **Level 13:** [Feature name] — …
+- **Level 14:** (if applicable) — …
+- **Level 15:** [Feature name] — …
+- **Level 17:** Subclass + any base feature — …
+- **Level 18:** (if applicable) — …
+*(Omit or use "—" for levels with no new feature; do not leave as placeholders.)*
+
+## Capstone (Level 20)
+> **Design Intent:** / **Balance:** 
+```
+
+## Conventions
+
+- Keep class damage output in line with the **DPR Benchmarks** by tier (see above).
+- Use `---` to separate the Class Overview block from the Class Table and from major sections.
+- Keep **Design Intent** and **Balance** blocks in blockquotes.
+- In the Class Table, use `—` for empty cells and keep ASI and subclass feature levels consistent (4/8/12/16/19 and 3/6/11/17).
+- Every level 5–20 that grants a base-class feature must have a matching subsection with at least one sentence of mechanics; do not leave "Scaling features (placeholders)" as the only text for those levels.
+- Any class with Techniques, maneuvers, or similar named options must list each option with **name** and **effect** in a dedicated subsection.
+- Reference existing docs in this folder (e.g. Monk Class Example, Class Overview) for tone and level of detail.

@@ -59,7 +59,7 @@
 **Short Description**: Humanoids with vibrantly colored wings and multicolored flames.  
 ### Abilities
 - **Active**:
-  - Blazecast
+  - 
   - Flame Healing
 - **Passive**: Flaming Body
 
@@ -112,7 +112,7 @@
   - Contortionist
 
 ## Vile Slime
-**Tags**: Homogenous, Fracture Magical  
+**Tags**: Homogenous, Eldritch Magical  
 **Description**: Beings composed of semi-solid matter capable of maintaining humanoid form. Their bodies can shift between liquid and solid states, able to create armor or weapons from their own body.  
 ### Abilities
 - **Active**:
@@ -150,7 +150,7 @@
 
 ## Rustborn
 **Tags**: Eldritch Magical, small 
-**Short Description**: An unkown race of Smaller beings, whose flesh seems partially metallic constantly oxidizing and in patches across their body. They exhibit a need to constantly discharge the energy stored within the rust to keep their joints from freezing up.  
+**Short Description**: An unkown race of Smaller beings, whose flesh seems partially metallic constantly oxidizing in patches across their body. They exhibit a need to constantly discharge the energy stored within the rust to keep their joints from freezing up.  
 ### Abilities
 - **Active**: Electricity Generation
 - **Passive**:

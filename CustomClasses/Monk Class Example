@@ -1,0 +1,152 @@
+# Monk
+
+## Class Overview
+**Role:** Mobile skirmisher, striker  
+**Primary Ability Score(s):** Dexterity, Wisdom  
+**Power Fantasy:** Mastery of body and spirit through disciplined training and inner energy  
+**Design Notes:** Resource-driven martial class with short-rest recovery and strong action economy control
+
+---
+
+## Class Table
+| Level | Proficiency Bonus | Features | Resource Die/Points | Feature Choices |
+|------|-------------------|----------|---------------------|-----------------|
+| 1st  | +2 | Unarmored Defense, Martial Arts | — | — |
+| 2nd  | +2 | Ki, Unarmored Movement | Ki (2) | — |
+| 3rd  | +2 | Monastic Tradition, Deflect Missiles | Ki (3) | — |
+| 4th  | +2 | Ability Score Improvement, Slow Fall | Ki (4) | — |
+| 5th  | +3 | Extra Attack, Stunning Strike | Ki (5) | — |
+| 6th  | +3 | Ki-Empowered Strikes, Tradition Feature | Ki (6) | — |
+| 7th  | +3 | Evasion, Stillness of Mind | Ki (7) | — |
+| 8th  | +3 | Ability Score Improvement | Ki (8) | — |
+| 9th  | +4 | Unarmored Movement Improvement | Ki (9) | — |
+| 10th | +4 | Purity of Body | Ki (10) | — |
+| 11th | +4 | Tradition Feature | Ki (11) | — |
+| 12th | +4 | Ability Score Improvement | Ki (12) | — |
+| 13th | +5 | Tongue of the Sun and Moon | Ki (13) | — |
+| 14th | +5 | Diamond Soul | Ki (14) | — |
+| 15th | +5 | Timeless Body | Ki (15) | — |
+| 16th | +5 | Ability Score Improvement | Ki (16) | — |
+| 17th | +6 | Tradition Feature | Ki (17) | — |
+| 18th | +6 | Empty Body | Ki (18) | — |
+| 19th | +6 | Ability Score Improvement | Ki (19) | — |
+| 20th | +6 | Perfect Self | Ki (20) | — |
+
+---
+
+## Core Class Features
+
+### Hit Points
+- **Hit Dice:** 1d8 per monk level  
+- **Hit Points at 1st Level:** 8 + your Constitution modifier  
+- **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per monk level  
+
+---
+
+### Proficiencies
+- **Armor:** None  
+- **Weapons:** Simple weapons, shortswords  
+- **Tools:** Choose one type of artisan’s tools or one musical instrument  
+- **Saving Throws:** Strength, Dexterity  
+- **Skills:** Choose two from Acrobatics, Athletics, History, Insight, Religion, Stealth  
+
+---
+
+## Core Feature (Level 1)
+> **Design Intent:** Establish the monk’s core combat loop using mobility and unarmed combat.
+
+### Unarmored Defense
+While you are wearing no armor and not wielding a shield, your AC equals  
+**10 + your Dexterity modifier + your Wisdom modifier.**
+
+### Martial Arts
+You gain the following benefits while unarmed or wielding only monk weapons:
+- You can use Dexterity instead of Strength for attack and damage rolls
+- You use a Martial Arts die for unarmed strike damage
+- When you take the Attack action, you can make one unarmed strike as a bonus action
+
+**Scaling Guidance:**  
+- Martial Arts die increases at levels 5, 11, and 17  
+- Bonus action attack defines early-game power budget
+
+---
+
+## Modular Feature System
+Starting at 2nd level, you gain access to **Ki**, a pool of spiritual energy used to fuel special abilities.
+
+- **Ki Points:** Equal to your monk level  
+- **Recovery:** All Ki points are regained after a short or long rest
+
+### Ki Options
+- **Flurry of Blows** — Spend 1 Ki to make two unarmed strikes as a bonus action after taking the Attack action.
+- **Patient Defense** — Spend 1 Ki to take the Dodge action as a bonus action.
+- **Step of the Wind** — Spend 1 Ki to take the Disengage or Dash action as a bonus action and double your jump distance until end of turn.
+
+> **Balance Target:** Comparable to Battlemaster maneuvers or low-level spell slots
+
+---
+
+## Subclass System
+
+### Monastic Tradition (Level 3)
+You choose a monastic tradition, which grants features at levels:
+- 3rd
+- 6th
+- 11th
+- 17th
+
+Each tradition defines a **combat axis** such as control, mobility, or burst damage.
+
+---
+
+## Ability Score Improvement (Levels 4, 8, 12, 16, 19)
++2 to one ability score or +1 to two.
+
+---
+
+## Level 5 Power Spike: Extra Attack, Stunning Strike
+
+### Extra Attack
+You can attack twice whenever you take the Attack action.
+
+### Stunning Strike
+When you hit with a melee weapon attack, you can spend 1 Ki point to attempt to stun the target. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.
+
+---
+
+## Level-by-Level Features (5–20)
+
+### Ki-Empowered Strikes (Level 6)
+Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+
+### Evasion (Level 7)
+When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage on a success and half damage on a failure.
+
+### Stillness of Mind (Level 7)
+You can use your action to end one effect on yourself that is causing you to be charmed or frightened.
+
+### Unarmored Movement Improvement (Level 9)
+Your speed from Unarmored Movement increases (e.g. +10 feet at 6th level, further increases at 10th, 14th, and 18th per your table). *Design: mobility scaling keeps the monk’s skirmish identity.*
+
+### Purity of Body (Level 10)
+You are immune to disease.
+
+### Tongue of the Sun and Moon (Level 13)
+You can understand and be understood by any creature that can understand a language.
+
+### Diamond Soul (Level 14)
+You gain proficiency in all saving throws. When you fail a saving throw, you can spend 1 Ki point to reroll it and must use the new result.
+
+### Timeless Body (Level 15)
+You suffer none of the frailty of old age, and you cannot be aged magically. You still need food and water.
+
+### Empty Body (Level 18)
+As an action, you can spend 4 Ki points to become invisible for 1 minute and gain resistance to all damage except force. You can end the effect early as a bonus action.
+
+---
+
+## Capstone: Perfect Self (Level 20)
+When you roll initiative and have no Ki points remaining, you regain **4 Ki points**.
+
+> **Design Intent:** Ensure the monk always begins an encounter functional.  
+**Balance:** Reliable but not explosive; prevents “dead turn” scenarios with no infinite loops.

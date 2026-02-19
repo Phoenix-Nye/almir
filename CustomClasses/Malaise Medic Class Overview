@@ -1,0 +1,160 @@
+# Malaise Medic
+
+## Class Overview
+**Role:** Support healer / Resilient medic  
+**Primary Ability Score(s):** Wisdom, Constitution  
+**Power Fantasy:** You've lived with sickness and injury so long that you've become an expert at treating yourself—and that hard-won knowledge makes you exceptionally effective at healing and purging ailments in others.  
+**Design Notes:** Resource-driven support with short-rest recovery; focus on healing, condition removal, disease resistance, and turning personal affliction into curative power.
+
+---
+
+## Class Table
+| Level | Proficiency Bonus | Features | Malaise Points | Feature Choices |
+|-------|-------------------|----------|----------------|-----------------|
+| 1st   | +2 | Afflicted Resilience, Empathetic Healing | — | — |
+| 2nd   | +2 | Malaise Points, Medic Techniques | 2 (max = level) | 2 Techniques |
+| 3rd   | +2 | Medic's Path (Subclass) | — | — |
+| 4th   | +2 | Ability Score Improvement | — | — |
+| 5th   | +3 | Sustained Care, Signature Technique | — | — |
+| 6th   | +3 | Subclass Feature | — | — |
+| 7th   | +3 | Hardened Constitution | — | — |
+| 8th   | +3 | Ability Score Improvement | — | — |
+| 9th   | +4 | Improved Medic Techniques | — | — |
+| 10th  | +4 | Medic Technique | +1 technique | — |
+| 11th  | +4 | Subclass Feature | — | — |
+| 12th  | +4 | Ability Score Improvement | — | — |
+| 13th  | +5 | Advanced Techniques | — | — |
+| 14th  | +5 | Medic Technique | +1 technique | — |
+| 15th  | +5 | Steadfast Presence | — | — |
+| 16th  | +5 | Ability Score Improvement | — | — |
+| 17th  | +6 | Master Medic, Subclass Feature | — | — |
+| 18th  | +6 | Medic Technique | +1 technique | — |
+| 19th  | +6 | Ability Score Improvement | — | — |
+| 20th  | +6 | Living Testament (Capstone) | — | — |
+
+---
+
+## Core Class Features
+
+### Hit Points
+- **Hit Dice:** 1d8 per Malaise Medic level  
+- **Hit Points at 1st Level:** 8 + your Constitution modifier  
+- **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per Malaise Medic level after 1st  
+
+### Proficiencies
+- **Armor:** Light armor  
+- **Weapons:** Simple weapons  
+- **Tools:** Herbalism kit, healer's kit  
+- **Saving Throws:** Wisdom, Constitution  
+- **Skills:** Choose two from Medicine, Insight, Nature, Perception, Religion, Survival  
+
+---
+
+## Core Features (Level 1)
+
+### Afflicted Resilience
+> **Design Intent:** Establish the fantasy that the medic's own experience with disease and injury is the source of their expertise; they are hard to bring down and understand ailments intimately.
+
+You have advantage on saving throws against disease and the poisoned condition.  
+When you use a healer's kit or herbalism kit to stabilize a dying creature, that creature also regains 1 hit point and becomes conscious (if it was unconscious). You can use this benefit a number of times per long rest equal to your Wisdom modifier (minimum 1).
+
+**Toughness from Suffering** — Your hit point maximum increases by 1 per Malaise Medic level.
+
+### Empathetic Healing
+> **Design Intent:** Define the core support loop—your healing and curative effects on others are enhanced because you know what it's like to be sick and injured.
+
+Whenever you restore hit points to a creature other than yourself (with a spell, class feature, healer's kit, or Medic Technique), you add your **Wisdom modifier + half your Malaise Medic level (rounded down)** to the hit points restored (once per use).  
+When you remove the poisoned or diseased condition from a creature other than yourself, that creature has advantage on the next saving throw it makes against being poisoned or diseased before the end of your next short or long rest.
+
+---
+
+## Malaise Points (Level 2)
+- You have **2** Malaise Points at 2nd level; **maximum** = your Malaise Medic level.  
+- **Short rest:** Regain a number of Malaise Points equal to half your Malaise Medic level (minimum 1).  
+- **Long rest:** Regain all.  
+
+Malaise Points fuel Medic Techniques and other curative or resilience features.
+
+**Medic save DC** = 8 + your Wisdom modifier + your proficiency bonus (when a technique or class feature requires a saving throw).
+
+---
+
+## Medic Techniques (Level 2+)
+- You learn **2** Medic Techniques at 2nd level; +1 at 10th, 14th, 18th.  
+- When you gain a level in this class, you can replace one technique with another you qualify for.  
+- **Costs:** Typically 1–2 Malaise Points per use.  
+
+> **Balance Target:** Comparable to Celestial Warlock healing or Life domain channel options; support-focused, not primary DPR. Any damage-dealing technique is secondary and tier-appropriate.
+
+### Medic Techniques (each with name and effect)
+
+- **Stabilizing Touch** — As an action, touch a creature that has 0 hit points and spend 1 Malaise Point. They are stabilized and regain hit points equal to **your Wisdom modifier + your Malaise Medic level** (minimum 1). They remain unconscious until they receive further healing or complete a short rest.
+- **Purge Toxin** — As an action, touch a willing creature and spend 1 Malaise Point. You end one disease or the poisoned condition on that creature. If the effect had a save DC, the creature has advantage on the next save against the same effect before the end of your next short or long rest.
+- **Bolus of Vigor** — When you restore hit points to a creature (other than yourself) using a spell, healer's kit, or another Medic Technique, you can spend 1 Malaise Point as part of the same action. That creature gains temporary hit points equal to **1d6 + your Wisdom modifier + half your Malaise Medic level (rounded down)**, lasting 1 hour. Once per creature per short or long rest.
+- **Resist Affliction** — As a bonus action, touch a willing creature and spend 1 Malaise Point. Until the end of your next short or long rest, that creature has advantage on the first saving throw it makes against being poisoned or diseased.
+- **Painful Purge** — As an action, touch a creature suffering from the poisoned or diseased condition and spend 2 Malaise Points. You attempt to end one such condition; the target takes necrotic damage equal to your Malaise Medic level (they can choose to fail and take the damage to automatically end the condition). On a successful Constitution save against your medic save DC, they take half damage and the condition is not ended.
+- **Field Dressing** — As an action, spend 1 Malaise Point while using a healer's kit on a creature. The next time that creature regains hit points from a spell or rest before the end of your next short or long rest, it regains additional hit points equal to **your Wisdom modifier + your proficiency bonus + your Malaise Medic level**.
+- **Restorative Touch** — As an action, touch a willing creature and spend 2 Malaise Points. They regain hit points equal to **2d8 + your Wisdom modifier + your Malaise Medic level** (3d8 at 5th, 4d8 at 11th, 5d8 at 17th). Primary in-combat healing; Empathetic Healing and Signature Technique add further throughput.
+
+---
+
+## Subclass: Medic's Path (Level 3)
+Choose at 3rd level. Features at **3rd, 6th, 11th, and 17th** level.  
+*(e.g. Path of the Plague Bearer | Path of the Wounded Healer | Path of the Apothecary; features to be designed separately.)*
+
+---
+
+## Ability Score Improvement (Levels 4, 8, 12, 16, 19)
++2 to one ability score or +1 to two.
+
+---
+
+## Level 5 Power Spike: Sustained Care, Signature Technique
+Support axis: throughput and utility spike, not Extra Attack.
+
+**Sustained Care** — When you use Empathetic Healing to restore hit points to a creature, you can spend 1 Malaise Point to grant that creature temporary hit points equal to your Wisdom modifier (minimum 1), lasting until the start of your next long rest. You can have only one such grant active per creature at a time.
+
+**Signature Technique** — Choose one Medic Technique you know. When you use it, you can spend 1 additional Malaise Point to either double the hit points it restores (for healing techniques) or apply its effect to one additional willing creature within range (for condition removal or resistance).
+
+> **Balance:** Keeps the medic's throughput in line with other support options at Tier 2; no direct DPR spike.
+
+---
+
+## Level-by-Level Features (5–20)
+
+### Sustained Care & Signature Technique (Level 5)
+Described in **Level 5 Power Spike** above.
+
+### Hardened Constitution (Level 7)
+You have resistance to poison damage. As an action, you can end one disease or the poisoned condition on yourself. Once per short or long rest.
+
+### Improved Medic Techniques (Level 9)
+When you use a Medic Technique that restores hit points, you can add your Wisdom modifier to the hit points restored (in addition to Empathetic Healing if it applies). When you use a Medic Technique that removes the poisoned or diseased condition, the target also gains temporary hit points equal to your Wisdom modifier (minimum 1), lasting 1 hour.
+
+### Medic Technique (Level 10)
+You learn one additional Medic Technique of your choice.
+
+### Advanced Techniques (Level 13)
+You learn one **Advanced** Medic Technique (e.g. multi-target purge or restore a spent Hit Die), or you can choose one Medic Technique you know and spend 1 additional Malaise Point when you use it to apply its effect to two willing creatures you can touch. *(Advanced technique list can be expanded separately.)*
+
+### Medic Technique (Level 14)
+You learn one additional Medic Technique of your choice.
+
+### Steadfast Presence (Level 15)
+When an ally you can see within 30 feet fails a saving throw against being frightened or poisoned, you can use your reaction to spend 1 Malaise Point and grant them advantage on that save. If they then succeed, they have advantage on the next save against the same effect before the end of your next short or long rest.
+
+### Master Medic (Level 17)
+Once per short or long rest, when you use a Medic Technique that costs Malaise Points, you can reduce its cost by 1 (minimum 0). When you restore hit points to a creature that has resistance or immunity to healing (e.g. certain undead), you can spend 2 Malaise Points so that restoration is treated as if the creature had no such resistance or immunity for that instance only.
+
+### Medic Technique (Level 18)
+You learn one additional Medic Technique of your choice.
+
+---
+
+## Capstone: Living Testament (Level 20)
+When you roll initiative and have 0 Malaise Points, you regain 4 Malaise Points.  
+When you restore hit points to a creature other than yourself, you can spend 2 Malaise Points to also end one condition on that creature from: blinded, deafened, paralyzed, poisoned. Once per creature per long rest.  
+Your Afflicted Resilience benefit (stabilize + 1 HP) can be used a number of times per long rest equal to your Malaise Medic level instead of your Wisdom modifier.
+
+> **Design Intent:** Ensure the medic always has enough resource to contribute at the start of an encounter; capstone enhances support and condition removal without infinite healing loops.  
+> **Balance:** Reliable support and recovery, no dead-turn scenarios; damage contribution remains minimal and within support-class expectations.
